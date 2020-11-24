@@ -8,13 +8,9 @@
 /bin-int/
 /build*/
 
-# Vendor Binaries
-/OverEngine/vendor/*/bin/
-/OverEngine/vendor/*/bin-int/
 
-# Visual Studio project files
-*.sln*
-*.vcxproj*
+
+
 
 # MakeFiles
 MakeFile
@@ -24,5 +20,4 @@ OverEngineProfile-StartUp.json
 OverEngineProfile-Runtime.json
 OverEngineProfile-Shutdown.json
 
-# Log files
-OverEngine.log
+
