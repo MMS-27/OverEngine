@@ -21,11 +21,11 @@ namespace OverEngine
 		// Window attributes
 		inline virtual void SetEventCallback(const EventCallbackFn& callback) override { m_Data.EventCallback = callback; }
 		virtual void SetVSync(bool enabled) override;
-		virtual bool IsVSync() const override;
+		inline virtual bool IsVSync() const override;
 
-		virtual void SetTitle(const char* title) override;
+		inline virtual void SetTitle(const char* title) override;
 
-		virtual void SetMousePosition(Vector2 position) override;
+		inline virtual void SetMousePosition(Vector2 position) override;
 		virtual Vector2 GetMousePosition() override;
 
 		virtual void SetClipboardText(const char* text) override;
